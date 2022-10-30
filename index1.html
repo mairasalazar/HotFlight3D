@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hot Flight | Your favourite game for iOS and Android</title>
+	<link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style1.css"/>
+
+<!--FAVICONS-->	
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+</head>
+
+
+
+    <body>
+        <div id="site">
+        	
+        	<header class = "header" id="myHeader">
+        		<div class="container">
+        			
+					<div class="topnav">
+						<a href="#description" class="menu-item" onclick="home()">The Game</a>
+						<a href="#trailer" class="menu-item" onclick="home()">Trailer</a>
+						<a href="#creators" class="menu-item" onclick="home()">Creators</a>
+						<a class="menu-item" onclick="projectMenu()">Project</a>
+					</div>
+        		</div>
+			</header>
+
+			<script>
+				function projectMenu(){
+					document.getElementById("mainpage").style.display = "none";
+					document.getElementById("project").style.display = "block";
+				}
+
+				function home(){
+					document.getElementById("project").style.display = "none";
+					document.getElementById("mainpage").style.display = "block";
+				}
+				
+				
+
+			</script>
+		
+
+			<main>
+			    <div id="main-body">
+			        <div id="banner">
+		            	
+		            	<div id="logofixo"></div>
+		            	<div id="background"></div>
+		             	<div id="balloon_one" class="balloon" startpositiony="-10px" style="margin-top: -10px;"></div>
+			            
+			        </div>
+<div id="project">
+				        <div id="process" class="content">
+				        	<h1>THE PROJECT</h1>
+				            <h2>ABOUT</h2>
+				        	<p>Hot Flight is a project developed in the Multimedia Atelier 3D course, with the focus on exploring 3D modulations, material and illumination on Autodesk 3ds Max.</p>
+				        	<h2>CHALLENGE</h2><p>To modulate an object, insert materials and illumination, and animate it. In a second phase, develop a website to market the product.</p>
+				        	<h2>IDEA</h2><p>Instead of creating a physical object, we opted to create a digital product: a game for smartphones, with a main focus on a Hot Air Balloon. The project included modelling the balloon, the islands and the coins, besides the creation of the website.</p>
+				        	<h2>PROCESS</h2>
+				        	<div id="gallery2">
+				        		<div class="slideshow-container2">
+						        <div class="slides2 fade2">
+								    <img src="images/001.jpg">
+								    
+						        </div> 
+						        <div class="slides2 fade2">
+								    <img src="images/002.jpg">
+								    
+						        </div>      
+						        <div class="slides2 fade2">
+								    <img src="images/003.jpg">
+								    
+						        </div>
+						        <div class="slides2 fade2">
+								    <img src="images/004.jpg">
+								    
+						        </div> 
+						        <div class="slides2 fade2">
+								    <img src="images/005.jpg">
+								    
+						        </div>      
+						        <div class="slides2 fade2">
+								    <img src="images/006.jpg">
+								    
+						        </div>
+						        <div class="slides2 fade2">
+								    <img src="images/007.jpg">
+								    
+						        </div> 
+						        <div class="slides2 fade2">
+								    <img src="images/008.jpg">
+								    
+						        </div>      
+						        <div class="slides2 fade2">
+								    <img src="images/009.jpg">
+								    
+						        </div>
+						        <div class="slides2 fade2">
+								    <img src="images/010.jpg">
+								    
+						        </div>
+						        <div class="slides2 fade2">
+								    <img src="images/011.jpg">
+								    
+						        </div>
+								<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+									<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+				        	</div>
+				        	<br>
+					        <div style="text-align:center">
+							  <span class="dot2" onclick="currentSlide2(1)"></span>
+							  <span class="dot2" onclick="currentSlide2(2)"></span>
+							  <span class="dot2" onclick="currentSlide2(3)"></span>
+							  <span class="dot2" onclick="currentSlide2(4)"></span>
+							  <span class="dot2" onclick="currentSlide2(5)"></span>
+							  <span class="dot2" onclick="currentSlide2(6)"></span>
+							  <span class="dot2" onclick="currentSlide2(7)"></span>
+							  <span class="dot2" onclick="currentSlide2(8)"></span>
+							  <span class="dot2" onclick="currentSlide2(9)"></span>
+							  <span class="dot2" onclick="currentSlide2(10)"></span>
+							  <span class="dot2" onclick="currentSlide2(11)"></span>
+							</div>
+							<script type="text/javascript">
+								var slide2Index = 1;
+								showSlides2(slide2Index);
+
+								function plusSlides2(n) {
+								  showSlides2(slide2Index += n);
+								}
+
+								function currentSlide2(n) {
+								  showSlides2(slide2Index = n);
+								}
+
+								function showSlides2(n) {
+								  var i;
+								  var slides2 = document.getElementsByClassName("slides2");
+								  var dots2 = document.getElementsByClassName("dot2");
+								  if (n > slides2.length) {slide2Index = 1}    
+								  if (n < 1) {slide2Index = slides2.length}
+								  for (i = 0; i < slides2.length; i++) {
+								      slides2[i].style.display = "none";  
+								  }
+								  for (i = 0; i < dots2.length; i++) {
+								      dots2[i].className = dots2[i].className.replace(" active", "");
+								  }
+								  slides2[slide2Index-1].style.display = "block";  
+								  dots2[slide2Index-1].className += " active";
+								}
+							</script>
+				        	</div>
+				        	
+						</div>	        
+					</div>
+					<div id="mainpage">
+						<div id="trailer">
+						<h1>The Game that makes you Fly beyond Limits</h1>        
+			            <video autoplay loop controls>
+			              <source src="images/play.mp4" type='video/mp4' />
+			            </video>
+			        </div>
+			        
+
+			        
+
+			        
+
+			        <div id="description" class="content">
+			            <h1>GAMEPLAY</h1>
+				            <div class="table">
+				            	<div class="row">
+				            		<div class="cell3">
+				            			<h3>PLAY</h3>
+				            			<p class="justify">Swipe up and down to explore the sky and collect the lost treasure.
+										Careful with the clouds. You can get lost and lose your hearts.</p><br><p class="justify">Fly in spectacular 3D surroundings!</p>
+				            		</div>
+				            		<div class="cell3">
+				            			<h3>MAKE IT YOURS</h3>
+										<p class="justify">Mix and match colours and patterns in creator mode. Design the perfect balloon to accompany you in your adventures.</p><br><p class="justify">Unlock exclusive tools to make your baloon unique!</p>
+				            		</div>
+				            		<div class="cell3">
+				            			<h3>KEEP PLAYING</h3>
+										<p class="justify">Increase your score multiplier by completing unique missions. Earn awesome prizes and characters by completing Daily Challenges.</p><br><p class="justify">The more you play, the more rewards you get! </p>
+				            		</div>
+				            	</div>
+								
+				            </div>
+				            
+				        
+			        </div>
+
+			        <div id="gallery" class="content">
+			        	<h1 id="features">FEATURES</h1>
+			        	<div class="slideshow-container">
+					        <div class="slides fade">
+							    <img src="images/imagem_1.png">
+							    <div class="text">Travel through the valley</div>
+					        </div> 
+					        <div class="slides fade">
+							    <img src="images/imagem_2.png">
+							    <div class="text">Or explore islands!</div>
+					        </div>      
+					        <div class="slides fade">
+							    <img src="images/galeria_1.png">
+							    <div class="text">You can personalize your ballon</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_2.png">
+							    <div class="text">From every angle</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_3.png">
+							    <div class="text">Play around with the colours</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_4.png">
+							    <div class="text">And create your very own style</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_5.png">
+							    <div class="text">Go back and change it at any point</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_6.png">
+							    <div class="text">And share it with yout friends</div>
+					        </div>
+					        <div class="slides fade">
+							    <img src="images/galeria_7.png">
+							    <div class="text">Ready?</div>
+					        </div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			        	</div>
+			        	<br>
+				        <div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)"></span>
+						  <span class="dot" onclick="currentSlide(2)"></span>
+						  <span class="dot" onclick="currentSlide(3)"></span>
+						  <span class="dot" onclick="currentSlide(4)"></span>
+						  <span class="dot" onclick="currentSlide(5)"></span>
+						  <span class="dot" onclick="currentSlide(6)"></span>
+						  <span class="dot" onclick="currentSlide(7)"></span>
+						  <span class="dot" onclick="currentSlide(8)"></span>
+						  <span class="dot" onclick="currentSlide(9)"></span>
+						</div>
+						<script type="text/javascript">
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+							  showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+							  showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+							  var i;
+							  var slides = document.getElementsByClassName("slides");
+							  var dots = document.getElementsByClassName("dot");
+							  if (n > slides.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = slides.length}
+							  for (i = 0; i < slides.length; i++) {
+							      slides[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+							      dots[i].className = dots[i].className.replace(" active", "");
+							  }
+							  slides[slideIndex-1].style.display = "block";  
+							  dots[slideIndex-1].className += " active";
+							}
+						</script>
+						
+					</div>
+
+			        <div id="creators" class="content">
+			        	<h1>CREATORS</h1>
+			        	<p>An unstoppable team that has the perfect balance between friendship, practical spirit, creativity and fun without forgetting hard work and understanding.</p>
+			        	<div class="table">
+			        		<div class="row">
+			        			
+			        			<div class="cell2">
+			        				<img src="images/livia.png" />
+			        				<h3>Livia Spencer</h3>
+			        				<div class="justify">
+			        					<p>Vulcano of Ideas and palette colours.
+										She came from a lost land never visited before.
+										Her goal is to be a Storyteller Master to connect humans.
+										She gets her powerups from pizza and Kubrick movies.
+										</p>
+			        				</div>
+								</div>
+			        			<div class="cell2">
+			        				<img src="images/maira.png" />
+			        				<h3>Maira Salazar</h3>
+			        				<div class="justify">
+			        					<p>Wizard of Coding and 3D modelling.
+										She came from a faraway land on the other side of the sea. 
+										Her goal is to create new spells with magic data.
+										She gets her powerups from vegan doughnuts and podcasts.
+										</p>
+			        				</div>
+			        			</div>
+			        			
+			        		</div>
+			        	</div>
+
+			        	<p style="padding-top: 0.67em;">They are going to fight with their powers for a world more sustainable, more aware, more caring and one day they will beat the Big Boss: The Ignorance. </p>
+
+			        </div>
+			    </div>
+			    <div id="available">
+			        	
+			            <h2>AVAILABLE ON</h2>
+			        	
+			            	<img id="apple" class="appstore" src="images/icons8-apple-logo-200.png">
+			        	
+			            	<img id="google_homepage" class="appstore" src="images/icons8-google-play-200.png">
+			        	
+			        </div>
+
+			        <div id="space" class="content">
+			            <p>
+			                <img src="" />
+			                <img src="" />
+			            </p>
+			        </div>
+
+				</div>
+			</main>
+
+			<footer class="footer">
+
+				        <div class="container inner">
+				            <p class="pull-left">&nbsp; &nbsp; © 2020 Hot Flight</p>
+				            
+				        </div>
+
+				</footer>
+
+		</div>
+    </body>
+</html>
